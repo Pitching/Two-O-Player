@@ -1,3 +1,6 @@
+require "./player.rb"
+require "./question.rb"
+
 class Match
   def initialize
     @player1 = Player.new("Player 1")
@@ -20,9 +23,9 @@ class Match
         return
       end
       if (@turn == @player1)
-        @turn == @player2
+        @turn = @player2
       else
-        @turn == @player1
+        @turn = @player1
       end
       puts "-----  NEW TURN  -----"
     end
