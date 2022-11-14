@@ -1,7 +1,7 @@
 class Question
   attr_reader :first, :second
 
-  def result
+  def initialize
     @first = rand(1..20)
     @seond = rand(1..20)
   end
@@ -16,5 +16,5 @@ class Question
       puts "#{player.name}: YES! You are correct."
     end
   end
-  
+
 end
