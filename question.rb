@@ -15,4 +15,6 @@ class Question
     else
       puts "#{player.name}: YES! You are correct."
     end
+  end
+  
 end

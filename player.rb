@@ -9,4 +9,5 @@ class Player
   def subtractLife
     @lives -= 1
   end
+  
 end
