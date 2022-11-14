@@ -1,12 +1,12 @@
 class Player
-  attr_accessor :player, lives
+  attr_accessor :player, :lives
 
   def newPlayer(player)
     @player = player
     @lives = 3
   end
 
-  def remainingLives
+  def subtractLife
     @lives -= 1
   end
 end
